@@ -1,102 +1,116 @@
+!
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
     <header>
-        <h1>Daniel <span class="flores">Flores</span> Portafolio</h1>
+        <div>
+            <h1>Daniel Flores</h1>
+        </div>
         <nav>
             <ul>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#my-work">Work</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact-me">Contact Me</a>
+                </li>
+                <li>
+                    <a href="./assets/documents/resume.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <section class="about">
-        <img src="./assets/images/mypicture.png.jpg" width=80px alt="This is the background image">
-        <p>
-            <!-- Fill in this information later with actual information that might be useful -->
-            Fill me up...
-            Please feel free to take a look at my <a href="assets/files/Profile.pdf">résumé</a>.
-        </p>
+    <section class="hero">
+        <div>
+            <img src="./assets/images/mypicture.png.jpg" alt="Daniel Fores Picture">
+        </div>
+        <h2>
+            Full-Time Technology Entrepreneur
+        </h2>
     </section>
+    <section id="about-me" class="about-me">
+        <div class="title">
+            <h2>About<br>Me</h2>
+        </div>
 
-    <section class="projects">
-        <article id="prework-study-guide">
-            <img src="./assets/images/prework-study-guide.PNG" class="float-left" width=200px
-                alt="Image describes the categories of SEO which include: Content, Headings, Mobile Compatibility,Social Media, Link Building and Backlink" />
-            <a href="https://danielfdch.github.io/prework-study-guide/" alt="Pre-work study guide">
-                <h2>Pre-work Study Guide</h2>
-            </a>
+        <div>
             <p>
-                Website for my Prework Study Project at the UofA coding bootcamp
+                Innovator and entrepreneur with 20+ years in safety technology. Experienced in all aspects of business
+                start-up, management, and operations. Visionary product developer with deep education in
+                embedded and web technology. Strong believer in lifelong learning.
             </p>
-        </article>
-        <article id="horiseon">
-            <img src="./assets/images/horiseon.PNG" class="float-right" width=200px alt="Horiseon website screenshot" />
-            <a href="https://danielfdch.github.io/horiseon-marketing-optimized/" alt="Horiseon website">
-                <h2>Horiseon</h2>
-            </a>
-            <p>
-                Website for my first CSS project at the UofA coding bootcamp
-            </p>
-        </article>
-        <article id="casadelmuellesancarlos">
-            <img src="./assets/images/casadelmuellesancarlos.PNG" class="float-left" width=200px
-                alt="Casa del Muelle San Carlos website screenshot" />
-            <a href="https://casadelmuellesancarlos.com" alt="Casa del muelle San Carlos">
-                <h2>Casa del Muelle San Carlos</h2>
-            </a>
-
-            <p>
-                Website for my AirB&B property in San Carlos, Sonora, Mexico.
-            </p>
-        </article>
-        <!-- <article id="fourth-project">
-            <img src="./assets/images/casadelmuellesancarlos.PNG" class="float-left" width=200px
-                alt="Fourth project screenshot" />
-            <a href="https://casadelmuellesancarlos.com" alt="Fourth Project">
-                <h2>Fourth Project</h2>
-            </a>
-
-            <p>
-                This is the website for my Fourth Project
-            </p>
-        </article>
-        <article id="fifth-project">
-            <img src="./assets/images/casadelmuellesancarlos.PNG" class="float-left" width=200px
-                alt="Fifth project screenshot" />
-            <a href="https://casadelmuellesancarlos.com" alt="Fourth Project">
-                <h2>Fifth Project</h2>
-            </a>
-
-            <p>
-                This is the website for my Fifth Project
-            </p>
-        </article> -->
-
+        </div>
     </section>
-    <footer id="contact">
-        <h3>Contact Info</h2>
-            <ul>
-                <li>Email: <a href="mailto:daniel.flor3s.d@gmail.com">daniel.flor3s.d@gmail.com</a> </li>
-                <li>GitHub:<a href="https://github.com/danielfdch">danielfdch</a></li>
-                <li>LinkedIn:<a href="https://www.linkedin.com/in/daniel-flores-d">daniel-flores-d</a></li>
-            </ul>
+    <section id="my-work" class="my-work">
+        <div class="title">
+            <h2>Work</h2>
+        </div>
+        <div class="projects-grid-wrapper">
+            <div class="projects-grid">
+
+                <a href="https://danielfdch.github.io/horiseon-marketing-optimized/" target="_blank"
+                    class="project horiseon">
+                    <div class="project-label">
+                        <h3>Horiseon</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                </a>
+                <a href="https://danielfdch.github.io/prework-study-guide/" target="_blank"
+                    class="project prework-study-guide">
+                    <div class="project-label">
+                        <h3>Prework Study Guide</h3>
+                        <p>HTML</p>
+                    </div>
+                </a>
+                <a href="https://casadelmuellesancarlos.com/" target="_blank" class="project casadelmuellesancarlos">
+                    <div class="project-label">
+                        <h3>Casa del Muelle San Carlos</h3>
+                        <p>HTML/CSS/JavaScript</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact-me" class="contact-me">
+        <div class="title">
+            <h2>Contact<br>Me</h2>
+        </div>
+        <div class="content-wrapper">
+            <div id="contact-list">
+                <ul>
+                    <li>
+                        <a href="#">(520) 878-8023</a>
+                    </li>
+                    <li>
+                        <a href="mailto:daniel.flor3s.d@gmail.com">daniel.flor3s.d@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/danielfdch" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/daniel-flores-d/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://www.Facebook.com" target="_blank">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3>Made by Daniel Flores &copy; 2022</h3>
     </footer>
 </body>
 
