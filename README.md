@@ -21,7 +21,7 @@ To view the website, please visit https://danielfdch.github.io/webdeveloper-port
 
 ## Credits
 
-N/A
+Reset CSS file provided by the UofA coding bootcamp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
