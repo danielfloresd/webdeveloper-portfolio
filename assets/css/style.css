@@ -1,32 +1,32 @@
 /* Global variable definitions for style colors and padding */
 :root {
-    --main-color: #92cccd;
     --back-color: #31343d;
     --font-color: #445876;
     --grid-padding: 30px;
+    --main-color: #92cccd;
 }
 
 /* Body font familiy and background color settings */
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #ededf6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Header styling and flex container settings */
 header {
     background-color: var(--back-color);
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px;
     font-size: 20px;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 /* Header h1 styling */
 header h1 {
+    background-color: var(--main-color);
     font-size: 40px;
     font-weight: bold;
-    background-color: var(--main-color);
     padding-left: 50px;
 }
 
@@ -42,46 +42,46 @@ header nav ul li {
 
 /* Header navigation list reference styling */
 header nav ul li a {
-    padding: 8px;
     color: var(--main-color);
     text-underline-offset: 8px;
+    padding: 8px;
 }
 
 /* Hero section styling and background image */
 .hero {
+    align-items: flex-end;
     background-image: url("../images/hero.png");
     background-position: center;
     display: flex;
-    align-items: flex-end;
     justify-content: space-around;
 }
 
 /* Hero image styling */
 .hero img {
-    height: 200px;
     border: solid var(--main-color);
     border-radius: 50%;
+    height: 200px;
     margin-bottom: 10px;
 }
 
 /* Hero h2 styling and flex container settings */
 .hero h2 {
-    font-size: 35px;
-    display: flex;
-    justify-content: end;
-    text-align: right;
     background-color: var(--main-color);
+    display: flex;
+    font-size: 35px;
+    /* justify-content: left; */
+    text-align: right;
     margin-bottom: 20px;
 }
 
 /* Title class styling for about.me, .my-work and .contact-me sections */
 .title {
     border-right: 5px solid var(--font-color);
-    min-height: 100%;
     text-align: right;
-    padding-right: 40px;
+    min-height: 100%;
     min-width: 20%;
     max-width: 20%;
+    padding-right: 40px;
 }
 
 /* Title class h2 styling */
@@ -92,9 +92,9 @@ header nav ul li a {
 
 /* About me section styling and flex container settings */
 .about-me {
+    align-items: stretch;
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     padding-top: var(--grid-padding);
 }
 
@@ -105,19 +105,20 @@ header nav ul li a {
 
 /* About me paragraph styling */
 .about-me p {
-    font-size: 24px;
     color: var(--font-color);
-    padding-left: var(--grid-padding);
+    font-size: 24px;
     line-height: 1.6;
-    width: 100%;
+    padding-left: var(--grid-padding);
     text-align: left;
+    width: 100%;
+
 }
 
 /* My work section styling and flex container settings */
 .my-work {
-    padding-top: var(--grid-padding);
     display: flex;
     justify-content: space-between;
+    padding-top: var(--grid-padding);
 }
 
 /* My work h2 styling */
@@ -127,33 +128,33 @@ header nav ul li a {
 
 /* Project grid flex wrapper used fo project-grid container */
 .projects-grid-wrapper {
-    width: 80%;
-    height: 500px;
     display: flex;
+    height: 500px;
     justify-content: center;
+    width: 80%;
 }
 
 /* Project grid container styling and settings for main work/project section */
 .projects-grid {
-    width: 100%;
     display: grid;
+    gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
     padding-left: var(--grid-padding);
+    width: 100%;
 }
 
 /* Individual project class styling and flex settings */
 .project {
-    border: solid var(--main-color);
-    color: var(--back-color);
-    display: flex;
     align-items: flex-end;
-    text-decoration: none;
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
+    border: solid var(--main-color);
     border-width: thick;
+    color: var(--back-color);
+    display: flex;
+    opacity: 0.8;
+    text-decoration: none;
 }
 
 /* Change project section opacity when mouse over */
@@ -163,9 +164,9 @@ header nav ul li a {
 
 /* Horiseon project section grid and background image settings */
 .horiseon {
+    background-image: url("../images/horiseon.PNG");
     grid-column: 1/3;
     grid-row: span 2;
-    background-image: url("../images/horiseon.PNG");
 }
 
 /* Prework project section grid and background image and position settings */
@@ -183,19 +184,19 @@ header nav ul li a {
 /* Indivual project label styling */
 .project-label {
     background-color: var(--main-color);
-    padding: 10px;
-    margin-bottom: 15px;
     font-size: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
 }
 
 /* Contact me section styling and flex container settings */
 .contact-me {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: var(--grid-padding);
-    padding-bottom: var(--grid-padding);
+    justify-content: space-between;
     margin-bottom: var(--grid-padding);
+    padding-bottom: var(--grid-padding);
+    padding-top: var(--grid-padding);
 }
 
 /* Additiona .contact-me header used for mobile applications */
@@ -205,10 +206,10 @@ header nav ul li a {
 
 /* Contact list wrapper styling and flex container settings */
 .contact-wrapper {
-    width: 80%;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    width: 80%;
 }
 
 /* Contact list links container */
@@ -218,12 +219,12 @@ header nav ul li a {
 
 /* Contact list styling and flex container settings */
 .contact-me ul {
-    list-style: none;
+    align-content: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
     font-size: 24px;
+    justify-content: space-evenly;
+    list-style: none;
     padding-left: 40px;
 }
 
@@ -237,16 +238,16 @@ header nav ul li a {
 footer {
     background-color: var(--back-color);
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
     font-size: 20px;
+    justify-content: center;
+    padding: 10px;
 }
 
 /* Footer h4 styling */
 footer h3 {
-    font-size: 18px;
     color: var(--main-color);
+    font-size: 18px;
 }
 
 /* Styling for screens 820px and smaller */
@@ -254,15 +255,15 @@ footer h3 {
 
     /* Removing all padding and margins for small screen size optimization */
     * {
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
+        box-sizing: border-box;
         margin-top: 0px;
         margin-right: 0px;
         margin-bottom: 0px;
         margin-left: 0px;
-        box-sizing: border-box;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
     }
 
     /* Header position centered  */
@@ -272,9 +273,9 @@ footer h3 {
 
     /* Header navigation list flex direction set to column for small screens */
     header nav ul {
-        min-height: 80px;
         display: flex;
         flex-direction: column;
+        min-height: 80px;
     }
 
     /* Header list item position centered  */
@@ -306,13 +307,12 @@ footer h3 {
 
     /* About me, Work and Contact Me sections tile styling for small screens */
     .title {
-        border-bottom: 5px solid var(--pop);
         border-right: none;
         text-align: center;
         min-width: 100%;
         max-width: 100%;
         padding: 0;
-        
+
     }
 
     .title h2 {
@@ -338,10 +338,10 @@ footer h3 {
 
     /* Projects grid flex direction set to column  */
     .projects-grid {
-        width: 80%;
         display: flex;
         flex-direction: column;
         padding-left: 0;
+        width: 80%;
     }
 
     /* Horiseon project grid item height settings */
@@ -362,6 +362,8 @@ footer h3 {
     /* Contact Me section flex direction changed to column for small screens */
     .contact-me {
         flex-direction: column;
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
 
     /* Contact Me section h2 main header hidden for small screens */
@@ -378,13 +380,14 @@ footer h3 {
     #contact-me-mobile {
         display: inline;
     }
-/* Contact Me list aligned to center and line hight sepparation changed for small screens */
+
+    /* Contact Me list aligned to center and line hight sepparation changed for small screens */
     .contact-me ul li {
         text-align: center;
         line-height: 250%;
-        line-height: 250%;
     }
-/* Contact me list flex direction changed to column */
+
+    /* Contact me list flex direction changed to column */
     .contact-me ul {
         flex-direction: column;
         padding-left: 0;
