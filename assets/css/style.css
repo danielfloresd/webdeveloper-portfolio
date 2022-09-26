@@ -355,22 +355,12 @@ footer h3 {
         padding-left: 0;
         width: 80%;
     }
-/*
-    Horiseon project grid item height settings
+
+    /* Horiseon project grid item height settings */
     .horiseon {
-        height: 30%;
+        height: 90%; 
     }
 
-    Pre Work Study Guide project grid item height settings
-    .prework-study-guide {
-        height: 30%;
-    }
-
-    Casa del Muelle San Carlos project grid item height settings
-    .casadelmuellesancarlos {
-        height: 30%;
-    }
-*/
     /* Contact Me section flex direction changed to column for small screens */
     .contact-me {
         flex-direction: column;
