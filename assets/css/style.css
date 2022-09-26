@@ -73,7 +73,6 @@ header nav ul li a {
     margin-bottom: 20px;
     text-align: right;
     
-    /*  */
 }
 
 /* Title class styling for about.me, .my-work and .contact-me sections */
@@ -130,7 +129,8 @@ header nav ul li a {
 /* Project grid flex wrapper used fo project-grid container */
 .projects-grid-wrapper {
     display: flex;
-    height: 500px;
+    height: 800px;
+    /* height: 100%; */
     justify-content: center;
     width: 80%;
 }
@@ -140,7 +140,7 @@ header nav ul li a {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     padding-left: var(--grid-padding);
     width: 100%;
 }
@@ -173,13 +173,21 @@ header nav ul li a {
 /* Prework project section grid and background image and position settings */
 .prework-study-guide {
     background-image: url("../images/prework-study-guide.PNG");
-    background-position: 50% 15%;
 }
 
 /* Casa del Muelle San Carlos project section grid and background image and position settings */
 .casadelmuellesancarlos {
     background-image: url("../images/casadelmuellesancarlos.PNG");
-    background-position: 50% 15%;
+}
+
+/* Casa del Muelle San Carlos project section grid and background image and position settings */
+.first-day-demo {
+    background-image: url("../images/first-day-demo.png");
+}
+
+/* Casa del Muelle San Carlos project section grid and background image and position settings */
+.demo-mini-project {
+    background-image: url("../images/demo-mini-project.PNG");
 }
 
 /* Indivual project label styling */
@@ -331,6 +339,10 @@ footer h3 {
         flex-direction: column;
     }
 
+    .project {
+        height: 30%;
+    }
+
     /* Projects section grid wrapper resized for small screens */
     .projects-grid-wrapper {
         width: 100%;
@@ -343,22 +355,22 @@ footer h3 {
         padding-left: 0;
         width: 80%;
     }
-
-    /* Horiseon project grid item height settings */
+/*
+    Horiseon project grid item height settings
     .horiseon {
         height: 30%;
     }
 
-    /* Pre Work Study Guide project grid item height settings */
+    Pre Work Study Guide project grid item height settings
     .prework-study-guide {
         height: 30%;
     }
 
-    /* Casa del Muelle San Carlos project grid item height settings */
+    Casa del Muelle San Carlos project grid item height settings
     .casadelmuellesancarlos {
         height: 30%;
     }
-
+*/
     /* Contact Me section flex direction changed to column for small screens */
     .contact-me {
         flex-direction: column;
