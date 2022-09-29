@@ -11,11 +11,11 @@ This project aims to implement a website that showcases a web developer's portfo
 The website was implemented using HTML and CSS, and it follows accessibility standards.
 
 ## Installation
-Source code can be downloaded at https://github.com/danielfdch/webdeveloper-portfolio/archive/refs/heads/main.zip.
-Git repository located at git@github.com:danielfdch/webdeveloper-portfolio.git 
+Source code can be downloaded at https://github.com/danielfloresd/webdeveloper-portfolio/archive/refs/heads/main.zip.
+Git repository located at git@github.com:danielfloresd/webdeveloper-portfolio.git 
 
 ## Usage
-To view the website, please visit https://danielfdch.github.io/webdeveloper-portfolio/
+To view the website, please visit https://danielfloresd.github.io/webdeveloper-portfolio/
 
 <img src="./assets/images/website.PNG" width="400" />
 
