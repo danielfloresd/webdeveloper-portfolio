@@ -180,14 +180,14 @@ header nav ul li a {
     background-image: url("../images/casadelmuellesancarlos.PNG");
 }
 
-/* First Day Demo project section grid and background image and position settings */
-.item-first-day-demo {
-    background-image: url("../images/first-day-demo.png");
+/* Secure Password Generator project section grid and background image and position settings */
+.item-secure-password-generator {
+    background-image: url("../images/secure-password-generator.png");
 }
 
-/* Demo Mini Project project section grid and background image and position settings */
-.item-demo-mini-project {
-    background-image: url("../images/demo-mini-project.PNG");
+/* JS Coding Quiz project section grid and background image and position settings */
+.item-js-coding-quiz{
+    background-image: url("../images/js-coding-quiz.png");
 }
 
 /* Indivual project label styling */
