@@ -190,6 +190,11 @@ header nav ul li a {
     background-image: url("../images/bootcamp-coding-quiz.png");
 }
 
+.item-work-day-scheduler{
+    background-image: url("../images/work-day-scheduler.PNG");
+}
+
+
 /* Indivual project label styling */
 .project-label {
     background-color: var(--main-color);
