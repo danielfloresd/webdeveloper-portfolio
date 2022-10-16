@@ -50,10 +50,11 @@ header nav ul li a {
 /* Hero section styling and background image */
 .hero {
     align-items: flex-end;
-    background-image: url("../images/hero.png");
+    background-image: url("../images/hero3.jpeg");
     background-position: center;
     display: flex;
     justify-content: space-around;
+    /* opacity: 0.5; */
 }
 
 /* Hero image styling */
@@ -73,6 +74,10 @@ header nav ul li a {
     margin-bottom: 20px;
     text-align: right;
 
+}
+
+#mypicture {
+    opacity: 1.0;
 }
 
 /* Title class styling for about.me, .my-work and .contact-me sections */
