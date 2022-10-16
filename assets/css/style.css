@@ -140,7 +140,7 @@ header nav ul li a {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     padding-left: var(--grid-padding);
     width: 100%;
 }
@@ -193,6 +193,12 @@ header nav ul li a {
 .item-work-day-scheduler{
     background-image: url("../images/work-day-scheduler.PNG");
 }
+
+.item-openweather-dashboard{
+    background-image: url("../images/openweather-dashboard.PNG");
+}
+
+
 
 
 /* Indivual project label styling */
