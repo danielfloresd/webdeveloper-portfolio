@@ -203,6 +203,9 @@ header nav ul li a {
     background-image: url("../images/openweather-dashboard.PNG");
 }
 
+.item-watch-this-now{
+    background-image: url("../images/watch-this-now.gif");
+}
 
 
 
