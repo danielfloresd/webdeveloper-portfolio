@@ -134,7 +134,7 @@ header nav ul li a {
 /* Project grid flex wrapper used fo project-grid container */
 .projects-grid-wrapper {
     display: flex;
-    height: 800px;
+    /* height: 800px; */
     /* height: 100%; */
     justify-content: center;
     width: 80%;
@@ -145,7 +145,7 @@ header nav ul li a {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     padding-left: var(--grid-padding);
     width: 100%;
 }
@@ -161,6 +161,7 @@ header nav ul li a {
     display: flex;
     opacity: 0.8;
     text-decoration: none;
+    height: 200px;
 }
 
 /* Change project section opacity when mouse over */
@@ -168,11 +169,16 @@ header nav ul li a {
     opacity: 1.0;
 }
 
-/* Horiseon project section grid and background image settings */
-.item-top-horiseon {
-    background-image: url("../images/horiseon.PNG");
+.item-top-watch-this-now{
+    background-image: url("../images/watch-this-now.gif");
     grid-column: 1/3;
     grid-row: span 2;
+    height: 100%;
+}
+
+/* Horiseon project section grid and background image settings */
+.item-horiseon {
+    background-image: url("../images/horiseon.PNG");
 }
 
 /* Prework project section grid and background image and position settings */
@@ -203,9 +209,6 @@ header nav ul li a {
     background-image: url("../images/openweather-dashboard.PNG");
 }
 
-.item-watch-this-now{
-    background-image: url("../images/watch-this-now.gif");
-}
 
 
 
