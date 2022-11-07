@@ -65,6 +65,11 @@ function createProjectCards(){
         let projectCardImage = $('<div>')
             .addClass('card-img-top')
             .attr("style", "background-image: url(" +  PROJECTS[project].image + "); background-size: cover;background-position: center")
+            .attr('alt', PROJECTS[project].name)
+            .attr('title', PROJECTS[project].name)
+            .attr('data-tooltip', PROJECTS[project].description)
+            .attr('data-inverted', '')
+            .attr('data-variation', 'inverted')
   
         let projectCardBody = $('<div>')
             .addClass('content');
@@ -81,13 +86,20 @@ function createProjectCards(){
         let projectCardGithub = $('<a>')
             .attr('href', PROJECTS[project].github)
             .attr('target', '_blank')
+            // .attr('class', 'ui right floated button')
          
         let projectCardGithubIcon = $('<img>')
             .attr("src", `https://img.shields.io/badge/${PROJECTS[project].tech}-black.svg?logo=github&style=plastic`)
 
+            // <div class="ui two bottom attached buttons">
+        let projectCardButtons = $('<div>')
+            .addClass('ui one bottom attached icob');
+    
+
         projectCardGithub.append(projectCardGithubIcon);
         projectCardLink.append(projectCardImage.prepend(projectCardTitle));
-        projectCardBody.append(projectCardText,projectCardGithub);
+        projectCardButtons.append(projectCardGithub);
+        projectCardBody.append(projectCardText,projectCardButtons);
         projectCard.append(projectCardLink,projectCardBody );
         projectCards.append(projectCard);
     }
