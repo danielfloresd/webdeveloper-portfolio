@@ -10,6 +10,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
     <link rel="manifest" href="./assets/images/site.webmanifest">
     <title>Daniel's Portfolio</title>
+    <!-- Link semantic-ui 2.5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -55,13 +57,9 @@
         </div>
         <div>
             <p>
-                Innovator and entrepreneur with 20+ years of experience in
-                advance safety
-                systems. Experienced in all aspects of business
-                start-up, management, and operations. Visionary product
-                developer with deep education in
-                embedded and web technologies. Strong believer in lifelong
-                learning.
+                Innovator and software engineer with 20+ of experience in the design, development, and implementation of
+                embedded systems. Experienced in all aspects of the business from start-up, development, and operations.
+                A strong believer in lifelong learning.
             </p>
         </div>
     </section>
@@ -70,69 +68,9 @@
         <div class="title">
             <h2>Work</h2>
         </div>
-        <div class="projects-grid-wrapper">
-            <div class="projects-grid">
-                <!-- Definition of main/top grid project item -->
-                <a href="https://danielfloresd.github.io/my-watch-this-now/" target="_blank"
-                    class="project item-top-watch-this-now">
-                    <div class="project-label">
-                        <h3>Watch-This-Now</h3>
-                        <p>jQuery/Semantic-UI</p>
-                    </div>
-                </a>
-                <a href="https://danielfloresd.github.io/horiseon-marketing-optimized/" target="_blank"
-                    class="project item-horiseon">
-                    <div class="project-label">
-                        <h3>Horiseon</h3>
-                        <p>HTML/CSS</p>
-                    </div>
-                </a>
-                <!-- Definition of standard grid project items -->
-                <a href="https://danielfloresd.github.io/prework-study-guide/" target="_blank"
-                    class="project item-prework-study-guide">
-                    <div class="project-label">
-                        <h3>Prework Study Guide</h3>
-                        <p>HTML</p>
-                    </div>
-                </a>
-
-                <a href="https://danielfloresd.github.io/secure-password-generator/" target="_blank"
-                    class="project item-secure-password-generator">
-                    <div class="project-label">
-                        <h3>Secure Password Generator</h3>
-                        <p>HTML/CSS/JavaScript</p>
-                    </div>
-                </a>
-                <a href="https://danielfloresd.github.io/bootcamp-coding-quiz/" target="_blank"
-                    class="project item-bootcamp-coding-quiz">
-                    <div class="project-label">
-                        <h3>Bootcamp Coding Quiz</h3>
-                        <p>HTML/CSS/JavaScript</p>
-                    </div>
-                </a>
-
-                <a href="https://danielfloresd.github.io/work-day-scheduler/" target="_blank"
-                    class="project item-work-day-scheduler">
-                    <div class="project-label">
-                        <h3>Work Day Scheduler</h3>
-                        <p>jQuery/Bootstrap</p>
-                    </div>
-                </a>
-                <a href="https://danielfloresd.github.io/openweather-dashboard" target="_blank"
-                    class="project item-openweather-dashboard">
-                    <div class="project-label">
-                        <h3>OpenWeather Dashboard</h3>
-                        <p>jQuery/Bootstrap</p>
-                    </div>
-                </a>
-                <a href="https://casadelmuellesancarlos.com/" target="_blank"
-                    class="project item-casa-del-muelle-sancarlos">
-                    <div class="project-label">
-                        <h3>Casa del Muelle San Carlos</h3>
-                        <p>HTML/CSS/JavaScript</p>
-                    </div>
-                </a>
-            </div>
+        <!-- Add space between the title and the first project -->
+        <br></br>
+        <div id="project-cards" class="ui two columns stackable cards">
         </div>
     </section>
     <!-- Contact me section with phone and social media links -->
@@ -168,5 +106,12 @@
         <h3>Made by Daniel Flores &copy; 2022</h3>
     </footer>
 </body>
-
+<!-- ✅ load jQuery ✅ -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"
+    integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- ✅ load custom JavaScript ✅ -->
+<script src="assets/js/script.js"></script>
 </html>

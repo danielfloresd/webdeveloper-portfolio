@@ -131,93 +131,46 @@ header nav ul li a {
     color: var(--font-color);
 }
 
-/* Project grid flex wrapper used fo project-grid container */
-.projects-grid-wrapper {
-    display: flex;
-    /* height: 800px; */
-    /* height: 100%; */
-    justify-content: center;
-    width: 80%;
+.card-img-top{
+    height: 300px;
+    /* width: 200px; */
+    opacity: 0.85;
 }
 
-/* Project grid container styling and settings for main work/project section */
-.projects-grid {
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    padding-left: var(--grid-padding);
-    width: 100%;
-}
-
-/* Individual project class styling and flex settings */
-.project {
-    align-items: flex-end;
-    background-position: center;
-    background-size: cover;
-    border-width: thick;
-    border: solid var(--main-color);
-    color: var(--back-color);
-    display: flex;
-    opacity: 0.8;
-    text-decoration: none;
-    height: 200px;
-}
-
-/* Change project section opacity when mouse over */
-.project:hover {
+.card-img-top:hover{
     opacity: 1.0;
 }
 
-.item-top-watch-this-now{
-    background-image: url("../images/watch-this-now.gif");
-    grid-column: 1/3;
-    grid-row: span 2;
-    height: 100%;
+.card {
+    /* background-position: center; */
+    /* background-size: cover; */
+    border-width: thick;
+    border: solid var(--main-color);
+    color: var(--back-color);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* Horiseon project section grid and background image settings */
-.item-horiseon {
-    background-image: url("../images/horiseon.PNG");
+.content {
+    margin: 0;
+    padding: 0;
 }
 
-/* Prework project section grid and background image and position settings */
-.item-prework-study-guide {
-    background-image: url("../images/prework-study-guide.PNG");
-}
+.header {
+    /* color: var(--back-color); */
+    /* color: var(--main-color);
+    background-color: var(--back-color); */
 
-/* Casa del Muelle San Carlos project section grid and background image and position settings */
-.item-casa-del-muelle-sancarlos {
-    background-image: url("../images/casadelmuellesancarlos.PNG");
-}
-
-/* Secure Password Generator project section grid and background image and position settings */
-.item-secure-password-generator {
-    background-image: url("../images/secure-password-generator.png");
-}
-
-/* JS Coding Quiz project section grid and background image and position settings */
-.item-bootcamp-coding-quiz{
-    background-image: url("../images/bootcamp-coding-quiz.png");
-}
-
-.item-work-day-scheduler{
-    background-image: url("../images/work-day-scheduler.PNG");
-}
-
-.item-openweather-dashboard{
-    background-image: url("../images/openweather-dashboard.PNG");
-}
-
-
-
-
-/* Indivual project label styling */
-.project-label {
     background-color: var(--main-color);
-    font-size: 20px;
-    margin-bottom: 15px;
+    color: var(--back-color);
+    margin-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    width: 50%;
     padding: 10px;
+    /*margin-bottom: 50px; */
+    /* text-align: center; */
 }
 
 /* Contact me section styling and flex container settings */
