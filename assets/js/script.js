@@ -89,7 +89,7 @@ function createProjectCards(){
             // .attr('class', 'ui right floated button')
          
         let projectCardGithubIcon = $('<img>')
-            .attr("src", `https://img.shields.io/badge/${PROJECTS[project].tech}-31343d.svg?logo=github&style=for-the-badge`)
+            .attr("src", `https://img.shields.io/badge/${PROJECTS[project].tech}-31343d.svg?logo=github&style=plastic`)
 
             // <div class="ui two bottom attached buttons">
         let projectCardButtons = $('<div>')
