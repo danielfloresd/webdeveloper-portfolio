@@ -28,6 +28,7 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
     padding-left: 50px;
+    border-radius: 5px;
 }
 
 /* Header navigation styling */
@@ -50,34 +51,58 @@ header nav ul li a {
 /* Hero section styling and background image */
 .hero {
     align-items: flex-end;
-    background-image: url("../images/hero3.jpeg");
-    background-position: center;
     display: flex;
     justify-content: space-around;
-    /* opacity: 0.5; */
+
 }
 
-/* Hero image styling */
-.hero img {
-    border-radius: 50%;
-    border: solid var(--main-color);
-    height: 200px;
-    margin-bottom: 10px;
+.hero-background {
+    
+    background: transparent url("../images/hero-san-carlos.jfif") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    float: left;
+    opacity: 0.6;
+}
+
+.hero-background:hover{
+    opacity: 1;
 }
 
 /* Hero h2 styling and flex container settings */
 .hero h2 {
     background-color: var(--main-color);
-    display: flex;
-    font-size: 35px;
+    /* display: flex; */
+    font-size: x-large;
     justify-content: left;
     margin-bottom: 20px;
     text-align: right;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    opacity: 1.0;
+    /* Remove inherited opacity:  */
+    filter: alpha(opacity=100);
+    /* set text border */
+    border: 2px solid var(--back-color);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 40px;
 
 }
 
 #mypicture {
     opacity: 1.0;
+    /* Remove inherited opacity:  */
+    filter: alpha(opacity=100);
+    border-radius: 50%;
+    border: solid var(--main-color);
+    height: 200px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
 }
 
 /* Title class styling for about.me, .my-work and .contact-me sections */
@@ -169,6 +194,7 @@ header nav ul li a {
     font-weight: bold;
     width: 50%;
     padding: 10px;
+    border-radius: 5px;
     /*margin-bottom: 50px; */
     /* text-align: center; */
 }
@@ -292,6 +318,20 @@ footer h3 {
     .title h2 {
         font-size: 36px;
     }
+
+    #mypicture {
+        border-radius: 50%;
+        border: solid var(--main-color);
+        margin-bottom: 10px;
+        position: absolute;
+        top:48%;
+
+    }
+    .hero h2 {
+        left: auto;
+        top: 35%;
+    }
+ 
 
     /* About me paragraph styling for small screens */
     .about-me p {
