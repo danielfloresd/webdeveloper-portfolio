@@ -112,7 +112,7 @@ header nav ul li a {
 /* About me paragraph styling */
 .about-me p {
     color: var(--font-color);
-    font-size: 24px;
+    font-size: x-large;
     line-height: 1.6;
     padding-left: var(--grid-padding);
     text-align: left;
