@@ -1,19 +1,19 @@
 const PROJECTS = {
     'project-6': {
-        'name': 'Professional README.md Generator',
-        'description': 'A node.js and web app used to generate professional readme.md file for github projects',
-        'tech': 'Node.js/Inquirer.js/Showdown.js',
-        'image': 'assets/images/professional-readme-generator.png',
-        'url': 'https://danielfloresd.github.io/professional-readme-generator/',
-        'github': 'https://github.com/danielfloresd/professional-readme-generator'
-    },
-    'project-5': {
         'name': 'Watch-This-Now',
         'description': 'A web app that allows users to search for movies and TV shows and add them to their watchlist.',
         'tech': 'jQuery/SemanticUI',
         'image': 'assets/images/watch-this-now.gif',
         'url': 'https://danielfloresd.github.io/my-watch-this-now/',
         'github': 'https://github.com/danielfloresd/my-watch-this-now'
+    },
+    'project-5': {
+        'name': 'Professional README.md Generator',
+        'description': 'A node.js and web app used to generate professional readme.md file for github projects',
+        'tech': 'Node.js/Inquirer',
+        'image': 'assets/images/professional-readme-generator.png',
+        'url': 'https://danielfloresd.github.io/professional-readme-generator/',
+        'github': 'https://github.com/danielfloresd/professional-readme-generator'
     },
     'project-4': {
         'name': 'OpenWeather Dashboard',
@@ -47,14 +47,14 @@ const PROJECTS = {
         'url': 'https://danielfloresd.github.io/work-day-scheduler/',
         'github': 'https://github.com/danielfloresd/work-day-scheduler'
     },
-    'project-0': {
-        'name': 'Secure Password Generator',
-        'description': 'A web app that allows users to generate a random password.',
-        'tech': 'HTML/CSS/JavaScript',
-        'image': 'assets/images/secure-password-generator.png',
-        'url': 'https://danielfloresd.github.io/secure-password-generator/',
-        'github': 'https://github.com/danielfloresd/secure-password-generator'
-    },
+    // 'project-0': {
+    //     'name': 'Secure Password Generator',
+    //     'description': 'A web app that allows users to generate a random password.',
+    //     'tech': 'HTML/CSS/JavaScript',
+    //     'image': 'assets/images/secure-password-generator.png',
+    //     'url': 'https://danielfloresd.github.io/secure-password-generator/',
+    //     'github': 'https://github.com/danielfloresd/secure-password-generator'
+    // },
 }
 
 
