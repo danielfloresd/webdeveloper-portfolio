@@ -1,4 +1,12 @@
 const PROJECTS = {
+    'project-6': {
+        'name': 'Professional README.md Generator',
+        'description': 'A node.js and web app used to generate professional readme.md file for github projects',
+        'tech': 'Node.js/Inquirer.js/Showdown.js',
+        'image': 'assets/images/professional-readme-generator.png',
+        'url': 'https://danielfloresd.github.io/professional-readme-generator/',
+        'github': 'https://github.com/danielfloresd/professional-readme-generator'
+    },
     'project-5': {
         'name': 'Watch-This-Now',
         'description': 'A web app that allows users to search for movies and TV shows and add them to their watchlist.',
