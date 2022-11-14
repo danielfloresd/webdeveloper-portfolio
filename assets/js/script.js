@@ -11,7 +11,7 @@ const PROJECTS = {
         'name': 'Professional README.md Generator',
         'description': 'A node.js and web app used to generate professional readme.md file for github projects',
         'tech': 'Node.js/Inquirer',
-        'image': 'assets/images/professional-readme-generator.png',
+        'image': 'assets/images/professional-readme-generator.gif',
         'url': 'https://danielfloresd.github.io/professional-readme-generator/',
         'github': 'https://github.com/danielfloresd/professional-readme-generator'
     },
