@@ -1,4 +1,12 @@
 const PROJECTS = {
+    'project-7': {
+        'name': 'Team Profile Generator',
+        'description': 'A web app created to automatically generate a styled HTML file displaying all members of a development team.',
+        'tech': 'Node.js/Jest/Foundation',
+        'image': 'assets/images/team-profile-generator.png',
+        'url': 'https://danielfloresd.github.io/team-profile-generator/',
+        'github': 'https://github.com/danielfloresd/team-profile-generator'
+    },
     'project-6': {
         'name': 'Watch-This-Now',
         'description': 'A web app that allows users to search for movies and TV shows and add them to their watchlist.',
