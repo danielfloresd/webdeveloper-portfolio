@@ -1,4 +1,12 @@
 const PROJECTS = {
+        'project-8': {
+        'name': 'Employee Tracker CMS',
+        'description': 'A CLI powerful tool for businesses looking to streamline the way they manage their organization',
+        'tech': 'Node.js/SQL',
+        'image': 'assets/images/employee-track-cms.PNG',
+        'url': 'https://danielfloresd.github.io/employee-track-cms/',
+        'github': 'https://github.com/danielfloresd/employee-track-cms'
+    },
     'project-7': {
         'name': 'Team Profile Generator',
         'description': 'A web app created to automatically generate a styled HTML file displaying all members of a development team.',
