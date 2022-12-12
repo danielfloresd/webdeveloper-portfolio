@@ -3,7 +3,7 @@ const PROJECTS = {
         'name': 'Employee Tracker CMS',
         'description': 'A CLI powerful tool for businesses looking to streamline the way they manage their organization',
         'tech': 'Node.js/SQL',
-        'image': 'assets/images/employee-track-cms.PNG',
+        'image': 'assets/images/employee-track-cms.png',
         'url': 'https://danielfloresd.github.io/employee-track-cms/',
         'github': 'https://github.com/danielfloresd/employee-track-cms'
     },
