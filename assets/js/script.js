@@ -1,4 +1,12 @@
 const PROJECTS = {
+    'project-9': {
+        'name': 'Aptly',
+        'description': 'A Web app for property management companies to streamline the way they manage their organization',
+        'tech': 'Handlebars/Node.js',
+        'image': 'assets/images/aptly.png',
+        'url': 'https://maintenance-portal.herokuapp.com/',
+        'github': 'https://github.com/WittyInventor/MaintenancePortal'
+    },
         'project-8': {
         'name': 'Employee Tracker CMS',
         'description': 'A CLI powerful tool for businesses looking to streamline the way they manage their organization',
